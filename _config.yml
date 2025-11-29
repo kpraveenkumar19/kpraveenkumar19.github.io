@@ -1,3 +1,19 @@
-theme: jekyll-theme-minimal
-title: Praveen's homepage
-description: Bookmark this to keep an eye on my project updates!
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-sitemap
+permalink: blogs/:title/
+title: Praveen Korukonda
+email: korukondapraveenk@gmail.com
+description: Website of Praveen Korukonda
+keywords: praveen,korukonda,iit,roorkee,developer,programmer,github
+baseurl: ""
+url: https://kpraveenkumar19.github.io
+name: Praveen Korukonda\'s Website
+author:
+  name: Praveen Korukonda
+  email: korukondapraveenk@gmail.com

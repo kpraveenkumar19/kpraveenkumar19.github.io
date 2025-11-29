@@ -1,0 +1,81 @@
+- name: "uptime-monitor"
+  github:
+    repo: "uptime-monitor"
+  url: "https://kpraveenkumar19.github.io/uptime-monitor/"
+  source_url: "https://github.com/kpraveenkumar19/uptime-monitor"
+  description:
+    - Tunnels IP traffic over ICMP - bypass firewalls and captive portals
+    - Can be used to make an encrypted communication channel
+    - Exploites RFC 792's allowance of ICMP packets of arbitrary data length
+    - Covered by <a href="https://pentestmag.com/download/power-shell-for-penetration-testing/">PenTest Magazine</a>
+  tech: "Raw sockets in C, linux 'tun' driver, iptables, route"
+
+- name: "mini-redis"
+  github:
+    repo: "mini-redis"
+  url: "https://kpraveenkumar19.github.io/mini-redis/"
+  source_url: "https://github.com/kpraveenkumar19/mini-redis"
+  description:
+    - A short book on internals of glibc's memory allocation techniques and its exploitation
+    - An in depth analysis of glibc's source code, particularly <a href="http://repo.or.cz/glibc.git/blob/HEAD:/malloc/malloc.c">malloc.c</a>
+    - Listing of <b>all</b> security checks performed by glibc
+    - Demonstration of various attacks possible on glibc's heap
+
+- name: "torrent-x"
+  github:
+    repo: "torrent-x"
+  url: "https://kpraveenkumar19.github.io/torrent-X/"
+  source_url: "https://github.com/kpraveenkumar19/torrent-X"
+  description:
+    - Command line tool in shell similar to <a href="https://github.com/creationix/nvm">nvm</a> and <a href="https://rvm.io/">rvm</a>
+    - Manage and switch easily between different versions of Lua, LuaJIT and Luarocks
+    - Easily maintain a different environment in separate terminal sessions
+  tech: "POSIX compatible shell scripting, Lua"
+
+- name: "caching-proxy"
+  github:
+    repo: "caching-proxy"
+  url: "https://kpraveenkumar19.github.io/caching-proxy/"
+  source_url: "https://github.com/kpraveenkumar19/caching-proxy"
+  description:
+    - Capture the Flag styled always online wargame with frequent computer security competitions
+    - Developed the entire backend of the website, see <a href="https://blog.sdslabs.co/2014/10/launching-backdoor">blog</a>
+    - Developed a secure sandboxed environment to run vulnerable challenges, see <a href="https://dhavalkapil.com/blogs/Combining-chroot-and-xinetd/">blog</a>
+    - Designed <a href="https://backdoor.sdslabs.co/users/vampire">25 challenges</a> ranging from web, binary and cryptography
+    - Hosted various international competitions and managed the server
+    - 5000+ registered users, >200 submissions every week
+  tech: "PHP(MVC), MySQL, Memcache, chroot, xinetd, system administration"
+
+- name: "go-lb"
+  github:
+    repo: "go-lb"
+  url: "https://kpraveenkumar19.github.io/go-lb/"
+  source_url: "https://github.com/kpraveenkumar19/go-lb"
+  description:
+    - A low level client for Elasticsearch in Lua
+    - Maintains multiple connections to Elasticsearch server using load balancing algorithms
+    - 2000+ <a href="https://luarocks.org/modules/dhavalkapil/elasticsearch">downloads</a>
+  tech: "Lua, HTTP, REST API, Elasticsearch, Unit Testing"
+
+
+- name: "git-lite"
+  github:
+    repo: "git-lite"
+  url: "https://kpraveenkumar19.github.io/git-lite/"
+  source_url: "https://github.com/kpraveenkumar19/git-lite"
+  description:
+    - A central and secure OAuth 2.0 server for all applications by <a href="https://sdslabs.co/">SDSLabs</a>
+    - OAuth tokens shared using the Client Credentials Grant
+    - A custom session management system to maintain user state
+  tech: "OAuth 2.0, PHP(MVC), MySQL, Redis"
+
+- name: "byte-shell"
+  github:
+    repo: "byte-shell"
+  url: "https://kpraveenkumar19.github.io/byte-shell/"
+  source_url: "https://github.com/kpraveenkumar19/byte-shell"
+  description:
+    - A central and secure OAuth 2.0 server for all applications by <a href="https://sdslabs.co/">SDSLabs</a>
+    - OAuth tokens shared using the Client Credentials Grant
+    - A custom session management system to maintain user state
+  tech: "OAuth 2.0, PHP(MVC), MySQL, Redis"
