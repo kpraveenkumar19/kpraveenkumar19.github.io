@@ -4,11 +4,11 @@
   url: "https://kpraveenkumar19.github.io/uptime-monitor/"
   source_url: "https://github.com/kpraveenkumar19/uptime-monitor"
   description:
-    - Tunnels IP traffic over ICMP - bypass firewalls and captive portals
-    - Can be used to make an encrypted communication channel
-    - Exploites RFC 792's allowance of ICMP packets of arbitrary data length
-    - Covered by <a href="https://pentestmag.com/download/power-shell-for-penetration-testing/">PenTest Magazine</a>
-  tech: "Raw sockets in C, linux 'tun' driver, iptables, route"
+    - Built a backend service that periodically checks website health and tracks uptime status over time.
+    - Set up background cron jobs to automatically schedule and run health checks every hour.
+    - Created REST APIs for managing monitored sites and viewing their current uptime status.
+    - Built a Slack integration to instantly alert users whenever a monitored site goes down or if its current status changes.
+  tech: "Go, Encore, PostgreSQL, GORM, Pub/Sub, Slack API."
 
 - name: "mini-redis"
   github:
