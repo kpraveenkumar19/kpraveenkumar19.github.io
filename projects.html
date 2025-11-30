@@ -13,9 +13,7 @@ title: Projects
     {% for project in site.data.projects %}
       <div class="project">
         <span class="star-button">
-          {% if project.github %} 
-              <a class="github-button" href="https://github.com/{{ project.github.user }}/{{ project.github.repo }}" data-size="large" data-show-count="true" data-icon="octicon-star" aria-label="Star {{ project.github.user }}/{{ project.github.repo }} on GitHub">Star</a>
-          {% endif %}
+          <a class="github-button" href="https://github.com/kpraveenkumar19/{{ project.github.repo }}" data-size="large" data-show-count="false" data-icon="octicon-star" aria-label="Star kpraiseenkumar19/{{ project.github.repo }} on GitHub">Star</a>
         </span>
         <div class="project-name">
           <a href = "{{ project.url }}">{{ project.name }}</a>
