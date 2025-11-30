@@ -7,7 +7,7 @@
     - Built a backend service that periodically checks website health and tracks uptime status over time.
     - Set up background cron jobs to automatically schedule and run health checks every hour.
     - Created REST APIs for managing monitored sites and viewing their current uptime status.
-    - Built a Slack integration to instantly alert users whenever a monitored site goes down or if its current status changes.
+    - Built a Slack integration to instantly alert users whenever a monitored site goes down.
   tech: "Go, Encore, PostgreSQL, GORM, Pub/Sub, Slack API."
 
 - name: "mini-redis"
