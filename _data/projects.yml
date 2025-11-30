@@ -10,6 +10,7 @@
     - Built a Slack integration to instantly alert users whenever a monitored site goes down.
   tech: "Go, Encore, PostgreSQL, GORM, Pub/Sub, Slack API."
 
+
 - name: "torrent-x"
   github:
     repo: "torrent-x"
@@ -17,7 +18,7 @@
   source_url: "https://github.com/kpraveenkumar19/torrent-X"
   description:
     - Built a <a href="https://www.bittorrent.com">BitTorrent</a> client from scratch that downloads files from torrent files and magnet links.
-    - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash verification
+    - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash verification.
   tech: "Java, <a href="https://www.bittorrent.org/beps/bep_0003.html">BitTorrent protocol</a>,TCP Sockets, HTTP Client"
 
 
@@ -59,7 +60,7 @@
     - 2000+ <a href="https://luarocks.org/modules/dhavalkapil/elasticsearch">downloads</a>
   tech: "Lua, HTTP, REST API, Elasticsearch, Unit Testing"
 
-
+  
 - name: "git-lite"
   github:
     repo: "git-lite"
