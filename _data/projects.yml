@@ -10,6 +10,18 @@
     - Built a Slack integration to instantly alert users whenever a monitored site goes down.
   tech: "Go, Encore, PostgreSQL, GORM, Pub/Sub, Slack API."
 
+- name: "torrent-x"
+  github:
+    repo: "torrent-x"
+  url: "https://kpraveenkumar19.github.io/torrent-X/"
+  source_url: "https://github.com/kpraveenkumar19/torrent-X"
+  description:
+    - Built a BitTorrent client from scratch that downloads files from torrent files and magnet links.
+    - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash verification
+  tech: "Java, BitTorrent protocol, HTTP, TCP Sockets, HTTP Client, SHA-1 hashing"
+
+
+
 - name: "mini-redis"
   github:
     repo: "mini-redis"
@@ -21,16 +33,6 @@
     - Listing of <b>all</b> security checks performed by glibc
     - Demonstration of various attacks possible on glibc's heap
 
-- name: "torrent-x"
-  github:
-    repo: "torrent-x"
-  url: "https://kpraveenkumar19.github.io/torrent-X/"
-  source_url: "https://github.com/kpraveenkumar19/torrent-X"
-  description:
-    - Command line tool in shell similar to <a href="https://github.com/creationix/nvm">nvm</a> and <a href="https://rvm.io/">rvm</a>
-    - Manage and switch easily between different versions of Lua, LuaJIT and Luarocks
-    - Easily maintain a different environment in separate terminal sessions
-  tech: "POSIX compatible shell scripting, Lua"
 
 - name: "caching-proxy"
   github:
