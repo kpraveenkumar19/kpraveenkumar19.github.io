@@ -16,9 +16,9 @@
   url: "https://kpraveenkumar19.github.io/torrent-X/"
   source_url: "https://github.com/kpraveenkumar19/torrent-X"
   description:
-    - Built a BitTorrent client from scratch that downloads files from torrent files and magnet links.
+    - Built a <a href="https://www.bittorrent.com">BitTorrent</a> client from scratch that downloads files from torrent files and magnet links.
     - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash verification
-  tech: "Java, BitTorrent protocol, HTTP, TCP Sockets, HTTP Client, SHA-1 hashing"
+  tech: "Java, <a href="https://www.bittorrent.org/beps/bep_0003.html">BitTorrent protocol</a>, HTTP, TCP Sockets, HTTP Client, SHA-1 hashing"
 
 
 
