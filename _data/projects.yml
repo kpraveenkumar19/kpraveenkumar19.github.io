@@ -18,8 +18,20 @@
   source_url: "https://github.com/kpraveenkumar19/torrent-X"
   description:
     - Built a <a href="https://www.bittorrent.com">BitTorrent</a> client from scratch that downloads files from torrent files and magnet links.
-    - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash verification.
+    - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash.
   tech: "Java, BitTorrent protocol,TCP Sockets, HTTP Client"
+
+
+
+- name: "git-lite"
+  github:
+    repo: "git-lite"
+  url: "https://kpraveenkumar19.github.io/git-lite/"
+  source_url: "https://github.com/kpraveenkumar19/git-lite"
+  description:
+    - Built a  git client that clones repositories using the <a href ="https://git-scm.com/docs/http-protocol">git smart http</a> protocol.
+    - Handles <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">git objects</a> and writes files directly, eliminating the need for ZIP extraction.
+  tech: "Java, Git Smart HTTP Protocol, SHA-1 hashing"
 
 
 
@@ -59,18 +71,6 @@
     - Maintains multiple connections to Elasticsearch server using load balancing algorithms
     - 2000+ <a href="https://luarocks.org/modules/dhavalkapil/elasticsearch">downloads</a>
   tech: "Lua, HTTP, REST API, Elasticsearch, Unit Testing"
-
-
-- name: "git-lite"
-  github:
-    repo: "git-lite"
-  url: "https://kpraveenkumar19.github.io/git-lite/"
-  source_url: "https://github.com/kpraveenkumar19/git-lite"
-  description:
-    - A central and secure OAuth 2.0 server for all applications by <a href="https://sdslabs.co/">SDSLabs</a>
-    - OAuth tokens shared using the Client Credentials Grant
-    - A custom session management system to maintain user state
-  tech: "OAuth 2.0, PHP(MVC), MySQL, Redis"
 
 - name: "byte-shell"
   github:
