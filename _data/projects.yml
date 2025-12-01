@@ -22,15 +22,7 @@
   tech: "Java, BitTorrent protocol, TCP Sockets, HTTP Client"
 
 
-- name: "git-lite"
-  github:
-    repo: "git-lite"
-  url: "https://kpraveenkumar19.github.io/git-lite/"
-  source_url: "https://github.com/kpraveenkumar19/git-lite"
-  description:
-    - Built a  git client that clones repositories using the <a href ="https://git-scm.com/docs/http-protocol">git smart http</a> protocol.
-    - Handles <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">git objects</a> and writes files directly, eliminating the need for ZIP extraction.
-  tech: "Java, Git Smart HTTP Protocol, SHA-1 hashing"
+
 
 
 - name: "caching-proxy"
@@ -42,6 +34,20 @@
     - Built a caching <a href="https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/">reverse proxy</a> CLI tool which reduces server hits and request latency.
     - Implemented a thread safe concurrent disk based cache storage system.
   tech: "Go, net/http, SHA-256 hashing"
+
+
+
+- name: "git-lite"
+  github:
+    repo: "git-lite"
+  url: "https://kpraveenkumar19.github.io/git-lite/"
+  source_url: "https://github.com/kpraveenkumar19/git-lite"
+  description:
+    - Built a  git client that clones repositories using the <a href ="https://git-scm.com/docs/http-protocol">git smart http</a> protocol.
+    - Handles <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">git objects</a> and writes files directly, eliminating the need for ZIP extraction.
+  tech: "Java, Git Smart HTTP Protocol, SHA-1 hashing"
+
+
 
 - name: "mini-redis"
   github:
