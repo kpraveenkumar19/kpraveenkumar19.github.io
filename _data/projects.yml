@@ -77,7 +77,5 @@
   url: "https://kpraveenkumar19.github.io/byte-shell/"
   source_url: "https://github.com/kpraveenkumar19/byte-shell"
   description:
-    - A central and secure OAuth 2.0 server for all applications by <a href="https://sdslabs.co/">SDSLabs</a>
-    - OAuth tokens shared using the Client Credentials Grant
-    - A custom session management system to maintain user state
-  tech: "OAuth 2.0, PHP(MVC), MySQL, Redis"
+    - byteShell is a UNIX-like command-line shell used to execute built-in <a href="https://linuxcommand.org/lc3_man_page_index.php">Linux commands</a>.
+  tech: "C, POSIX system calls (fork, exec, wait), Unix/Linux"
