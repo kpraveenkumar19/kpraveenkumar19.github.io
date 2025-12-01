@@ -55,11 +55,10 @@
   url: "https://kpraveenkumar19.github.io/mini-redis/"
   source_url: "https://github.com/kpraveenkumar19/mini-redis"
   description:
-    - A short book on internals of glibc's memory allocation techniques and its exploitation
-    - An in depth analysis of glibc's source code, particularly <a href="http://repo.or.cz/glibc.git/blob/HEAD:/malloc/malloc.c">malloc.c</a>
-    - Listing of <b>all</b> security checks performed by glibc
-    - Demonstration of various attacks possible on glibc's heap
-
+    - Built in-memory <a href="https://redis.io/">Redis</a>-style server and CLI client in Go which supports redis core commands
+    - Implemented thread-safe storage for strings (with expiry), lists (with blockings operations), sorted sets
+    - Supports multiple concurrent clients and load an existing RDB file at startup.
+  tech: "Go, TCP/IP Networking, RESP Protocol, Concurrency"
 
 
 - name: "go-lb"
