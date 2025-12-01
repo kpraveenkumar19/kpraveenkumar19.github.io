@@ -67,10 +67,9 @@
   url: "https://kpraveenkumar19.github.io/go-lb/"
   source_url: "https://github.com/kpraveenkumar19/go-lb"
   description:
-    - A low level client for Elasticsearch in Lua
-    - Maintains multiple connections to Elasticsearch server using load balancing algorithms
-    - 2000+ <a href="https://luarocks.org/modules/dhavalkapil/elasticsearch">downloads</a>
-  tech: "Lua, HTTP, REST API, Elasticsearch, Unit Testing"
+    - built a custom <a href="https://www.cloudflare.com/en-in/learning/performance/what-is-load-balancing/">load balancer</a> using round-robin scheduling to distribute traffic across servers.
+    - Added automatic health checks and reroute requests to healthy servers.
+  tech: "Go, net/http, ReverseProxy"
 
 - name: "byte-shell"
   github:
