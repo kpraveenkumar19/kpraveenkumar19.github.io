@@ -18,8 +18,8 @@
   source_url: "https://github.com/kpraveenkumar19/torrent-X"
   description:
     - Built a <a href="https://www.bittorrent.com">BitTorrent</a> client that allows downloads using a single-file torrent or magnet links
-    - Implemented p2p protocol with tracker communication, piece verification, and metadata exchange
-  tech: "Java, BitTorrent protocol,TCP Sockets, HTTP Client"
+    - Implemented p2p protocol with tracker communction, piece checks, metadata exchange
+  tech: "Java, BitTorrent protocol, TCP Sockets, HTTP Client"
 
 
 - name: "git-lite"
@@ -40,7 +40,7 @@
   source_url: "https://github.com/kpraveenkumar19/caching-proxy"
   description:
     - Built a caching <a href="https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/">reverse proxy</a> CLI tool which reduces server hits and request latency.
-    - Implemented a thread safe concurrent disk based cache storage system
+    - Implemented a thread safe concurrent disk based cache storage system.
   tech: "Go, net/http, SHA-256 hashing"
 
 - name: "mini-redis"
