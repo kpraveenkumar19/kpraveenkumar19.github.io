@@ -17,10 +17,9 @@
   url: "https://kpraveenkumar19.github.io/torrent-X/"
   source_url: "https://github.com/kpraveenkumar19/torrent-X"
   description:
-    - Built a <a href="https://www.bittorrent.com">BitTorrent</a> client from scratch that downloads files from torrent files and magnet links.
-    - Implemented protocol handshaking, peer communication, and piece validation with SHA-1 hash.
+    - Built a <a href="https://www.bittorrent.com">BitTorrent</a> client that allows downloads using a single-file torrent or magnet links
+    - Implemented p2p protocol with tracker communication, piece verification, and metadata exchange
   tech: "Java, BitTorrent protocol,TCP Sockets, HTTP Client"
-
 
 
 - name: "git-lite"
@@ -34,6 +33,15 @@
   tech: "Java, Git Smart HTTP Protocol, SHA-1 hashing"
 
 
+- name: "caching-proxy"
+  github:
+    repo: "caching-proxy"
+  url: "https://kpraveenkumar19.github.io/caching-proxy/"
+  source_url: "https://github.com/kpraveenkumar19/caching-proxy"
+  description:
+    - Built a caching <a href="https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/">reverse proxy</a> CLI tool which reduces server hits and request latency.
+    - Implemented a thread safe concurrent disk based cache storage system
+  tech: "Go, net/http, SHA-256 hashing"
 
 - name: "mini-redis"
   github:
@@ -47,19 +55,6 @@
     - Demonstration of various attacks possible on glibc's heap
 
 
-- name: "caching-proxy"
-  github:
-    repo: "caching-proxy"
-  url: "https://kpraveenkumar19.github.io/caching-proxy/"
-  source_url: "https://github.com/kpraveenkumar19/caching-proxy"
-  description:
-    - Capture the Flag styled always online wargame with frequent computer security competitions
-    - Developed the entire backend of the website, see <a href="https://blog.sdslabs.co/2014/10/launching-backdoor">blog</a>
-    - Developed a secure sandboxed environment to run vulnerable challenges, see <a href="https://dhavalkapil.com/blogs/Combining-chroot-and-xinetd/">blog</a>
-    - Designed <a href="https://backdoor.sdslabs.co/users/vampire">25 challenges</a> ranging from web, binary and cryptography
-    - Hosted various international competitions and managed the server
-    - 5000+ registered users, >200 submissions every week
-  tech: "PHP(MVC), MySQL, Memcache, chroot, xinetd, system administration"
 
 - name: "go-lb"
   github:
