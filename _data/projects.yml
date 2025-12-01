@@ -57,7 +57,7 @@
   description:
     - Built in-memory <a href="https://redis.io/">Redis</a>-style server and CLI client in Go which supports redis core commands
     - Implemented thread-safe storage for strings (with expiry), lists (with blockings operations), sorted sets
-    - Supports multiple concurrent clients and load an existing RDB file at startup.
+    - Supports multiple concurrent clients and load an existing RDB file for <a href="https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/">persistence</a>.
   tech: "Go, TCP/IP Networking, RESP Protocol, Concurrency"
 
 
