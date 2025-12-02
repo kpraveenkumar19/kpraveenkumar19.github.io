@@ -77,5 +77,5 @@
   url: "https://kpraveenkumar19.github.io/byte-shell/"
   source_url: "https://github.com/kpraveenkumar19/byte-shell"
   description:
-    - byteShell is a UNIX-like command-line shell used to execute built-in <a href="https://linuxcommand.org/lc3_man_page_index.php">Linux commands</a>.
+    - bytehell is a UNIX-like command-line shell used to execute built-in <a href="https://linuxcommand.org/lc3_man_page_index.php">Linux commands</a>.
   tech: "C, POSIX system calls (fork, exec, wait), Unix/Linux"
