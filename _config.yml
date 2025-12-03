@@ -8,7 +8,7 @@ plugins:
   - jekyll-sitemap
 permalink: blogs/:title/
 title: Praveen Korukonda
-email: korukondapraveenk@gmail.com
+email: me@praveenk.dev
 description: Website of Praveen Korukonda
 keywords: praveen,korukonda,iit,roorkee,developer,programmer,github
 baseurl: ""
@@ -16,5 +16,5 @@ url: https://praveenk.dev
 name: Praveen Korukonda\'s Website
 author:
   name: Praveen Korukonda
-  email: korukondapraveenk@gmail.com
+  email: me@praveenk.dev
 cloudflare_analytics_token: "6d803f14a158461d9c9366e27e717372"
