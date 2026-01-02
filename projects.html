@@ -7,19 +7,19 @@ title: Projects
   <header class="post-header">
     <h1>Projects</h1>
   </header>
-  I am quite active on <a href = "{{ site.data.params.github_url }}">Github</a>. Below, is a list of some of my selected projects.
+  I am quite active on <a href = "{{ site.data.params.github_url }}" target="_blank" rel="noopener noreferrer">Github</a>. Below, is a list of some of my selected projects.
 
   <div class="projects">
     {% for project in site.data.projects %}
       <div class="project">
         <div class="project-name">
-          <a href = "{{ project.url }}">{{ project.name }}</a>
+          <a href = "{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a>
           <span class="star-button">
             {% if project.github %}
               {% if project.github.user %}
-                <a class="github-button" href="https://github.com/{{ project.github.user }}/{{ project.github.repo }}" data-size="large" data-show-count="false" data-icon="octicon-star" aria-label="Star {{ project.github.user }}/{{ project.github.repo }} on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/{{ project.github.user }}/{{ project.github.repo }}" data-size="large" data-show-count="false" data-icon="octicon-star" aria-label="Star {{ project.github.user }}/{{ project.github.repo }} on GitHub" target="_blank" rel="noopener noreferrer">Star</a>
               {% else %}
-                <a class="github-button" href="https://github.com/kpraveenkumar19/{{ project.github.repo }}" data-size="large" data-show-count="false" data-icon="octicon-star" aria-label="Star kpraveenkumar19/{{ project.github.repo }} on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/kpraveenkumar19/{{ project.github.repo }}" data-size="large" data-show-count="false" data-icon="octicon-star" aria-label="Star kpraveenkumar19/{{ project.github.repo }} on GitHub" target="_blank" rel="noopener noreferrer">Star</a>
               {% endif %}
             {% endif %}
           </span>
@@ -37,7 +37,7 @@ title: Projects
           {% endif %}
         </span>
         {% if project.source_url %}
-          <span class="project-source"><a href = "{{ project.source_url }}">View Source</a></span>
+          <span class="project-source"><a href = "{{ project.source_url }}" target="_blank" rel="noopener noreferrer">View Source</a></span>
         {% endif %}
       </div>
     {% endfor %}
