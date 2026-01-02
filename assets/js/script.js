@@ -18,6 +18,23 @@ $(document).ready( function() {
 		});
 		$("#back-to-top").fadeOut(1000);
 	});
+
+	// Open all external links in a new tab
+	$('a').each(function() {
+		var href = $(this).attr('href');
+		if (href && href.startsWith('http')) {
+			try {
+				var url = new URL(href, window.location.origin);
+				// Only open in new tab if the hostname is different from the current site
+				if (url.hostname !== window.location.hostname && url.hostname !== 'praveenk.dev') {
+					$(this).attr('target', '_blank');
+					$(this).attr('rel', 'noopener noreferrer');
+				}
+			} catch (e) {
+				// Fallback or ignore if URL parsing fails
+			}
+		}
+	});
 });
 
 function position()
