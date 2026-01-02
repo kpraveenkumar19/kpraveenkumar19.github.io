@@ -18,31 +18,6 @@ $(document).ready( function() {
 		});
 		$("#back-to-top").fadeOut(1000);
 	});
-
-	// Open all external links in a new tab
-	$('a').each(function() {
-		var href = $(this).attr('href');
-		if (href && (href.startsWith('http') || href.startsWith('//'))) {
-			try {
-				var url = new URL(href, window.location.origin);
-				// Only open in new tab if the hostname is different from the current site
-				if (url.hostname !== window.location.hostname && url.hostname !== 'praveenk.dev') {
-					$(this).attr('target', '_blank');
-					$(this).attr('rel', 'noopener noreferrer');
-				}
-			} catch (e) {
-				// Fallback: if it starts with http and we can't parse it, it's likely external
-				$(this).attr('target', '_blank');
-				$(this).attr('rel', 'noopener noreferrer');
-			}
-		}
-	});
-
-	// Explicitly ensure all project links and source links open in a new tab
-	$('.project-name a, .project-source a').each(function() {
-		$(this).attr('target', '_blank');
-		$(this).attr('rel', 'noopener noreferrer');
-	});
 });
 
 function position()
