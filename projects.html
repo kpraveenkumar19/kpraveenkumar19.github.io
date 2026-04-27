@@ -13,7 +13,11 @@ title: Projects
     {% for project in site.data.projects %}
       <div class="project">
         <div class="project-name">
-          <a href = "{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a>
+          {% if project.url %}
+            <a href = "{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a>
+          {% else %}
+            {{ project.name }}
+          {% endif %}
           <span class="star-button">
             {% if project.github %}
               {% if project.github.user %}
