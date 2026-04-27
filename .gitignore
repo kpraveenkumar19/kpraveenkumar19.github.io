@@ -1,3 +1,11 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+# Personal application drafts (do not publish)
+curr-sop.md
+cv.md
+*-sop.md
+*-sop-*.md
+sop.md
+sop-*.md
