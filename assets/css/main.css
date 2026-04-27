@@ -158,6 +158,17 @@ body {
   float: right;
 }
 
+.project-supervisor {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-style: italic;
+  color: #555;
+}
+
+.project-supervisor + .project-description {
+  padding-top: 5px;
+}
+
 .project-description {
   padding-top: 10px;
   padding-left: 30px;

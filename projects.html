@@ -28,6 +28,9 @@ title: Projects
             {% endif %}
           </span>
         </div>
+        {% if project.supervisor %}
+          <div class="project-supervisor"><em>Supervised by {{ project.supervisor }}</em></div>
+        {% endif %}
         <ul class="project-description">
           {% for line in project.description %}
             <li>{{ line }}</li>

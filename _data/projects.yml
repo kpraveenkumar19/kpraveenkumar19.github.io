@@ -1,18 +1,18 @@
-- name: "Estimation of Remaining Useful Life of Bearings using ML | Bachelor Thesis"
+- name: "Estimation of Remaining Useful Life of Bearings using ML"
+  supervisor: "Prof. S.P. Harsha"
   description:
-    - "Supervisor: Prof. S.P. Harsha, IIT Roorkee. Sep 2024 \u2013 May 2025."
     - Built a predictive-maintenance framework estimating the Remaining Useful Life of high-speed bearings.
     - Collected vibration signals from an experimental test rig and denoised them via wavelet thresholding.
     - Extracted 34 multi-domain features and filtered them using S-weighted and Pearson correlation scoring.
     - Designed a self-attention-augmented BiLSTM to model temporal degradation patterns in vibration data.
     - Tuned hyperparameters via Bayesian optimisation, selecting hidden units, dropout, and learning rate.
     - "Achieved R\xB2 of 0.825 on combined data and 0.781 on the held-out bearing under leave-one-out testing."
-  tech: "Python, PyTorch, BiLSTM with Self-Attention, Bayesian Optimisation, Wavelet Denoising"
+  tech: "Python, PyTorch, BiLSTM with Self-Attention, Bayesian Optimisation"
 
 
-- name: "Simulation of Human-Induced Load Patterns using ML | Research Internship"
+- name: "Simulation of Human-Induced Load Patterns using ML "
+  supervisor: "Prof. Anil Kumar"
   description:
-    - "Supervisor: Prof. Anil Kumar, IIT Roorkee. Jul 2024 \u2013 Aug 2024."
     - Developed a GAN-based model generating human-induced load patterns at 98% similarity to real data.
     - Processed 658+ experimental samples across walking, jumping, and bouncing loads at 1.5 to 3.5 Hz.
     - Built a Forecasting+LSTM hybrid model and studied ARIMA and Prophet for time-series load synthesis.
@@ -20,28 +20,28 @@
   tech: "Python, GANs, LSTM, ARIMA, Prophet, Time-Series Modelling"
 
 
-- name: "Design and Analysis of Inflatable Decoy | Lab-Based Study"
+- name: "Design and Analysis of Inflatable Decoy"
+  supervisor: "Prof. S.H. Upadhyay"
   description:
-    - "Supervisor: Prof. S.H. Upadhyay, IIT Roorkee. Jan 2024 \u2013 Apr 2024."
     - Designed a 1/12-scaled inflatable decoy of a missile launcher using a PVC-coated polyester fabric.
-    - Compared box, baffle, and pipe geometries via ABAQUS FEA, choosing the pipe structure for bulge control.
+    - Compared different geometries via ABAQUS FEA, choosing the pipe structure for bulge control.
     - "Simulated inflation\u2013deflation cycles in ABAQUS using the fabric material model and fluid cavities."
     - Built a physical prototype using 3D-printed joints and tested radar and thermal-IR signature samples.
   tech: "ABAQUS, FEA, SolidWorks, 3D Printing, Radar/IR Signature Engineering"
 
 
-- name: "Programmable Soft Biomimetic Crawler | Robotics Hackathon, IIT Roorkee"
+- name: "Programmable Soft Biomimetic Crawler"
   description:
     - Designed a soft biomimetic crawler inspired by worm and caterpillar peristaltic-undulatory motion, aimed at navigating confined and unstructured terrains where conventional rigid robots struggle.
-    - Modelled the body geometry in SolidWorks with a focus on flexibility, material compliance, and miniaturisation.
+    - Modelled the body geometry in SolidWorks with a focus on flexibility and miniaturisation.
     - Ran ANSYS FEA to simulate deformation under actuation and validate the soft body's crawling gait.
     - Engineered programmable magnetisation patterns inside the body so that an external magnetic field could drive controlled, untethered crawling motion.
   tech: "SolidWorks, ANSYS FEA, Soft Robotics, Magnetic Actuation, Biomimetic Design"
 
 
 - name: "CAE Design and Structural Analysis of Roll Cage"
+  supervisor: "Prof. Indra Vir Singh"
   description:
-    - "Supervisor: Prof. Indra Vir Singh, IIT Roorkee. Course: MIN-291."
     - Reviewed roll cage design standards and prior reports to anchor the project's safety and load brief.
     - Built and iteratively optimised welded CAD models of the roll cage to maximise structural strength.
     - Ran ANSYS impact simulations to identify deformation modes and address structural safety concerns.
@@ -49,16 +49,16 @@
 
 
 - name: "Vibration Control of Supported Beams"
+  supervisor: "Prof. M.M. Joglekar"
   description:
-    - "Supervisor: Prof. M.M. Joglekar, IIT Roorkee. Course: MIN-321."
     - Modelled a supported beam with and without an attached spring-mass-damper subsystem at the midspan.
     - Ran MATLAB simulations to compare dynamic responses and quantify the SMD's vibration suppression.
   tech: "MATLAB, Structural Dynamics, Spring-Mass-Damper Modelling"
 
 
 - name: "Code Development of 1-D Fanno Flow"
+  supervisor: "Prof. Ankit Bansal"
   description:
-    - "Supervisor: Prof. Ankit Bansal, IIT Roorkee. Course: MIN-345."
     - Built a MATLAB tool simulating 1-D Fanno flow with shock waves and frictional gas-dynamics effects.
     - Implemented governing equations, validated against analytical results, and tuned numerical stability.
   tech: "MATLAB, Compressible Flow, Numerical Methods"
@@ -69,7 +69,6 @@
     repo: "image-denoiser"
   source_url: "https://github.com/kpraveenkumar19/image-denoiser"
   description:
-    - Vision and Language Group (VLG), IIT Roorkee.
     - Designed an autoencoder-based image denoiser for low-light photos, reaching a PSNR of 28.256 dB.
     - Applied RIDNet to improve visibility and detail retention, raising PSNR to 30.579 dB on the same set.
   tech: "Python, PyTorch, Autoencoders, RIDNet, Computer Vision"
@@ -80,7 +79,6 @@
     repo: "stock-sentiment"
   source_url: "https://github.com/kpraveenkumar19/stock-sentiment"
   description:
-    - Finance Club, IIT Roorkee.
     - Built an NLP-driven sentiment model to predict stock-price movements from financial news headlines.
     - Back-tested the trading strategy on historical data, yielding 17.12% returns and a 1.34 Sharpe ratio.
   tech: "Python, NLP, Sentiment Analysis, Back-testing"
