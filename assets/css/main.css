@@ -159,6 +159,7 @@ body {
 }
 
 .project-supervisor {
+  margin-top: 8px;
   padding-top: 10px;
   padding-left: 30px;
   font-style: italic;
