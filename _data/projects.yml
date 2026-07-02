@@ -1,67 +1,80 @@
-- name: "Estimation of Remaining Useful Life of Bearings using ML"
-  supervisor: "Prof. S.P. Harsha"
+
+- name: "mini-redis"
+  github:
+    repo: "mini-redis"
+  url: "https://kpraveenkumar19.github.io/mini-redis/"
+  source_url: "https://github.com/kpraveenkumar19/mini-redis"
   description:
-    - Built a predictive-maintenance framework estimating the Remaining Useful Life of high-speed bearings.
-    - Collected vibration signals from an experimental test rig and denoised them via wavelet thresholding.
-    - Extracted 34 multi-domain features and filtered them using S-weighted and Pearson correlation scoring.
-    - Designed a self-attention-augmented BiLSTM to model temporal degradation patterns in vibration data.
-    - Tuned hyperparameters via Bayesian optimisation, selecting hidden units, dropout, and learning rate.
-    - "Achieved R\xB2 of 0.825 on combined data and 0.781 on the held-out bearing under leave-one-out testing."
-  tech: "Python, PyTorch, BiLSTM with Self-Attention, Bayesian Optimisation"
+    - Built in-memory <a href="https://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a>-style server and CLI client in Go which supports redis core commands.
+    - Implemented thread-safe storage for strings (with expiry), lists (with blockings operations), sorted sets.
+    - Supports multiple concurrent clients and load an existing RDB file for <a href="https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/" target="_blank" rel="noopener noreferrer">persistence</a>.
+  tech: "Go, TCP/IP Networking, RESP Protocol, Concurrency"
 
 
-- name: "Simulation of Human-Induced Load Patterns using ML "
-  supervisor: "Prof. Anil Kumar"
+- name: "torrent-x"
+  github:
+    repo: "torrent-x"
+  url: "https://kpraveenkumar19.github.io/torrent-X/"
+  source_url: "https://github.com/kpraveenkumar19/torrent-X"
   description:
-    - Developed a GAN-based model generating human-induced load patterns at 98% similarity to real data.
-    - Processed 658+ experimental samples across walking, jumping, and bouncing loads at 1.5 to 3.5 Hz.
-    - Built a Forecasting+LSTM hybrid model and studied ARIMA and Prophet for time-series load synthesis.
-    - Validated synthetic loads via PSD replication and statistical equivalence in structural response.
-  tech: "Python, GANs, LSTM, ARIMA, Prophet, Time-Series Modelling"
+    - Built a <a href="https://www.bittorrent.com" target="_blank" rel="noopener noreferrer">BitTorrent</a> client that allows downloads using a single-file torrent or magnet links
+    - Implemented p2p protocol with tracker communction, piece checks, metadata exchange
+  tech: "Java, BitTorrent protocol, TCP Sockets, HTTP Client"
 
 
-- name: "Design and Analysis of Inflatable Decoy"
-  supervisor: "Prof. S.H. Upadhyay"
+- name: "git-lite"
+  github:
+    repo: "git-lite"
+  url: "https://kpraveenkumar19.github.io/git-lite/"
+  source_url: "https://github.com/kpraveenkumar19/git-lite"
   description:
-    - Designed a 1/12-scaled inflatable decoy of a missile launcher using a PVC-coated polyester fabric.
-    - Compared different geometries via ABAQUS FEA, choosing the pipe structure for bulge control.
-    - "Simulated inflation\u2013deflation cycles in ABAQUS using the fabric material model and fluid cavities."
-    - Built a physical prototype using 3D-printed joints and tested radar and thermal-IR signature samples.
-  tech: "ABAQUS, FEA, SolidWorks, 3D Printing, Radar/IR Signature Engineering"
+    - Built a  git client that clones repositories using the <a href ="https://git-scm.com/docs/http-protocol" target="_blank" rel="noopener noreferrer">git smart http</a> protocol.
+    - Handles <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects" target="_blank" rel="noopener noreferrer">git objects</a> and writes files directly, eliminating the need for ZIP extraction.
+  tech: "Java, Git Smart HTTP Protocol, SHA-1 hashing"
 
-
-- name: "Programmable Soft Biomimetic Crawler"
+- name: "caching-proxy"
+  github:
+    repo: "caching-proxy"
+  url: "https://kpraveenkumar19.github.io/caching-proxy/"
+  source_url: "https://github.com/kpraveenkumar19/caching-proxy"
   description:
-    - Designed a soft biomimetic crawler inspired by worm and caterpillar peristaltic-undulatory motion, aimed at navigating confined and unstructured terrains where conventional rigid robots struggle.
-    - Modelled the body geometry in SolidWorks with a focus on flexibility and miniaturisation.
-    - Ran ANSYS FEA to simulate deformation under actuation and validate the soft body's crawling gait.
-    - Engineered programmable magnetisation patterns inside the body so that an external magnetic field could drive controlled, untethered crawling motion.
-  tech: "SolidWorks, ANSYS FEA, Soft Robotics, Magnetic Actuation, Biomimetic Design"
+    - Built a caching <a href="https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/" target="_blank" rel="noopener noreferrer">reverse proxy</a> CLI tool which reduces server hits and request latency.
+    - Implemented a thread safe concurrent disk based cache storage system.
+  tech: "Go, net/http, SHA-256 hashing"
 
 
-- name: "CAE Design and Structural Analysis of Roll Cage"
-  supervisor: "Prof. Indra Vir Singh"
+- name: "uptime-monitor"
+  github:
+    repo: "uptime-monitor"
+  url: "https://kpraveenkumar19.github.io/uptime-monitor/"
+  source_url: "https://github.com/kpraveenkumar19/uptime-monitor"
   description:
-    - Reviewed roll cage design standards and prior reports to anchor the project's safety and load brief.
-    - Built and iteratively optimised welded CAD models of the roll cage to maximise structural strength.
-    - Ran ANSYS impact simulations to identify deformation modes and address structural safety concerns.
-  tech: "SolidWorks, ANSYS, FEA, Structural Analysis"
+    - Built a backend service that periodically checks website health and tracks uptime status over time.
+    - Set up background cron jobs to automatically schedule and run health checks every hour.
+    - Created REST APIs for managing monitored sites and viewing their current uptime status.
+    - Built a Slack integration to instantly alert users whenever a monitored site goes down.
+  tech: "Go, Encore, PostgreSQL, GORM, Pub/Sub, Slack API."
 
 
-- name: "Vibration Control of Supported Beams"
-  supervisor: "Prof. M.M. Joglekar"
+- name: "go-lb"
+  github:
+    repo: "go-lb"
+  url: "https://kpraveenkumar19.github.io/go-lb/"
+  source_url: "https://github.com/kpraveenkumar19/go-lb"
   description:
-    - Modelled a supported beam with and without an attached spring-mass-damper subsystem at the midspan.
-    - Ran MATLAB simulations to compare dynamic responses and quantify the SMD's vibration suppression.
-  tech: "MATLAB, Structural Dynamics, Spring-Mass-Damper Modelling"
+    - built a custom <a href="https://www.cloudflare.com/en-in/learning/performance/what-is-load-balancing/" target="_blank" rel="noopener noreferrer">load balancer</a> using round-robin scheduling to distribute traffic across servers.
+    - Added automatic health checks and reroute requests to healthy servers.
+  tech: "Go, net/http, ReverseProxy"
 
 
-- name: "Code Development of 1-D Fanno Flow"
-  supervisor: "Prof. Ankit Bansal"
+- name: "byte-shell"
+  github:
+    repo: "byte-shell"
+  url: "https://kpraveenkumar19.github.io/byte-shell/"
+  source_url: "https://github.com/kpraveenkumar19/byte-shell"
   description:
-    - Built a MATLAB tool simulating 1-D Fanno flow with shock waves and frictional gas-dynamics effects.
-    - Implemented governing equations, validated against analytical results, and tuned numerical stability.
-  tech: "MATLAB, Compressible Flow, Numerical Methods"
+    - bytehell is a UNIX-like command-line shell used to execute built-in <a href="https://linuxcommand.org/lc3_man_page_index.php" target="_blank" rel="noopener noreferrer">Linux commands</a>.
+  tech: "C, POSIX system calls (fork, exec, wait), Unix/Linux"
 
 
 - name: "image-denoiser"
@@ -84,84 +97,23 @@
   tech: "Python, NLP, Sentiment Analysis, Back-testing"
 
 
-- name: "uptime-monitor"
-  github:
-    repo: "uptime-monitor"
-  url: "https://kpraveenkumar19.github.io/uptime-monitor/"
-  source_url: "https://github.com/kpraveenkumar19/uptime-monitor"
+- name: "Research Project: Estimation of Remaining Useful Life of Bearings using ML"
+  supervisor: "Prof. S.P. Harsha"
   description:
-    - Built a backend service that periodically checks website health and tracks uptime status over time.
-    - Set up background cron jobs to automatically schedule and run health checks every hour.
-    - Created REST APIs for managing monitored sites and viewing their current uptime status.
-    - Built a Slack integration to instantly alert users whenever a monitored site goes down.
-  tech: "Go, Encore, PostgreSQL, GORM, Pub/Sub, Slack API."
+    - Built a predictive-maintenance framework estimating the Remaining Useful Life of high-speed bearings.
+    - Collected vibration signals from an experimental test rig and denoised them via wavelet thresholding.
+    - Extracted 34 multi-domain features and filtered them using S-weighted and Pearson correlation scoring.
+    - Designed a self-attention-augmented BiLSTM to model temporal degradation patterns in vibration data.
+    - Tuned hyperparameters via Bayesian optimisation, selecting hidden units, dropout, and learning rate.
+    - "Achieved R\xB2 of 0.825 on combined data and 0.781 on the held-out bearing under leave-one-out testing."
+  tech: "Python, PyTorch, BiLSTM with Self-Attention, Bayesian Optimisation"
 
 
-- name: "torrent-x"
-  github:
-    repo: "torrent-x"
-  url: "https://kpraveenkumar19.github.io/torrent-X/"
-  source_url: "https://github.com/kpraveenkumar19/torrent-X"
+- name: "Research Project: Simulation of Human-Induced Load Patterns using ML "
+  supervisor: "Prof. Anil Kumar"
   description:
-    - Built a <a href="https://www.bittorrent.com" target="_blank" rel="noopener noreferrer">BitTorrent</a> client that allows downloads using a single-file torrent or magnet links
-    - Implemented p2p protocol with tracker communction, piece checks, metadata exchange
-  tech: "Java, BitTorrent protocol, TCP Sockets, HTTP Client"
-
-
-
-
-
-- name: "caching-proxy"
-  github:
-    repo: "caching-proxy"
-  url: "https://kpraveenkumar19.github.io/caching-proxy/"
-  source_url: "https://github.com/kpraveenkumar19/caching-proxy"
-  description:
-    - Built a caching <a href="https://www.cloudflare.com/en-in/learning/cdn/glossary/reverse-proxy/" target="_blank" rel="noopener noreferrer">reverse proxy</a> CLI tool which reduces server hits and request latency.
-    - Implemented a thread safe concurrent disk based cache storage system.
-  tech: "Go, net/http, SHA-256 hashing"
-
-
-
-- name: "git-lite"
-  github:
-    repo: "git-lite"
-  url: "https://kpraveenkumar19.github.io/git-lite/"
-  source_url: "https://github.com/kpraveenkumar19/git-lite"
-  description:
-    - Built a  git client that clones repositories using the <a href ="https://git-scm.com/docs/http-protocol" target="_blank" rel="noopener noreferrer">git smart http</a> protocol.
-    - Handles <a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects" target="_blank" rel="noopener noreferrer">git objects</a> and writes files directly, eliminating the need for ZIP extraction.
-  tech: "Java, Git Smart HTTP Protocol, SHA-1 hashing"
-
-
-
-- name: "mini-redis"
-  github:
-    repo: "mini-redis"
-  url: "https://kpraveenkumar19.github.io/mini-redis/"
-  source_url: "https://github.com/kpraveenkumar19/mini-redis"
-  description:
-    - Built in-memory <a href="https://redis.io/" target="_blank" rel="noopener noreferrer">Redis</a>-style server and CLI client in Go which supports redis core commands.
-    - Implemented thread-safe storage for strings (with expiry), lists (with blockings operations), sorted sets.
-    - Supports multiple concurrent clients and load an existing RDB file for <a href="https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/" target="_blank" rel="noopener noreferrer">persistence</a>.
-  tech: "Go, TCP/IP Networking, RESP Protocol, Concurrency"
-
-
-- name: "go-lb"
-  github:
-    repo: "go-lb"
-  url: "https://kpraveenkumar19.github.io/go-lb/"
-  source_url: "https://github.com/kpraveenkumar19/go-lb"
-  description:
-    - built a custom <a href="https://www.cloudflare.com/en-in/learning/performance/what-is-load-balancing/" target="_blank" rel="noopener noreferrer">load balancer</a> using round-robin scheduling to distribute traffic across servers.
-    - Added automatic health checks and reroute requests to healthy servers.
-  tech: "Go, net/http, ReverseProxy"
-
-- name: "byte-shell"
-  github:
-    repo: "byte-shell"
-  url: "https://kpraveenkumar19.github.io/byte-shell/"
-  source_url: "https://github.com/kpraveenkumar19/byte-shell"
-  description:
-    - bytehell is a UNIX-like command-line shell used to execute built-in <a href="https://linuxcommand.org/lc3_man_page_index.php" target="_blank" rel="noopener noreferrer">Linux commands</a>.
-  tech: "C, POSIX system calls (fork, exec, wait), Unix/Linux"
+    - Developed a GAN-based model generating human-induced load patterns at 98% similarity to real data.
+    - Processed 658+ experimental samples across walking, jumping, and bouncing loads at 1.5 to 3.5 Hz.
+    - Built a Forecasting+LSTM hybrid model and studied ARIMA and Prophet for time-series load synthesis.
+    - Validated synthetic loads via PSD replication and statistical equivalence in structural response.
+  tech: "Python, GANs, LSTM, ARIMA, Prophet, Time-Series Modelling"
